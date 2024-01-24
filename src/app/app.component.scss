@@ -22,3 +22,15 @@ p {
 .demo-no-flex {
   display: block;
 }
+
+.example-button-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.example-flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}

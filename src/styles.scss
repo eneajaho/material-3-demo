@@ -3,6 +3,13 @@
 @use "@angular/material" as mat;
 @use "@angular/material-experimental" as matx;
 
+body {
+  padding: 20px;
+  font-family: "DM Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
 @mixin color-variant-styles($theme, $color-variant) {
   @include mat.option-color($theme, $color-variant: $color-variant);
   @include mat.progress-spinner-color($theme, $color-variant: $color-variant);
