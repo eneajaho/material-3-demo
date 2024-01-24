@@ -11,7 +11,7 @@
   <mat-label>Density</mat-label>
   <mat-select [value]="density()" (valueChange)="density.set($event)">
     @for (density of DENSITY_LEVELS; track density) {
-    <mat-option [value]="density">Desnity - {{ density }}</mat-option>
+    <mat-option [value]="density">Density - {{ density }}</mat-option>
     }
   </mat-select>
 </mat-form-field>
