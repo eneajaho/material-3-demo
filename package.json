@@ -10,6 +10,10 @@
   },
   "private": true,
   "dependencies": {
+    "@angular/cdk": "angular/cdk-builds",
+    "@angular/material": "angular/material-builds",
+    "@angular/material-experimental": "angular/material-experimental-builds",
+    "material-components-web": "^14.0.0",
     "@angular/animations": "^17.1.0",
     "@angular/common": "^17.1.0",
     "@angular/compiler": "^17.1.0",
